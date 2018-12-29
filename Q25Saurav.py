@@ -5,6 +5,6 @@ class Number:
         elif(int(ch)>=0 and int(ch)<=9):
             print("Its an number")
             
-gk=Number()
+ss=Number()
 ch=input("Enter a charcater")
-gk.check(ch)
+ss.check(ch)
