@@ -13,22 +13,22 @@ class String:
             print("The string is equal")
         else:
             print("The string is not equal")
-gk=String()
+ss=String()
 n=int(input("Enter 1 to fine the length, 2 to reverse, 3 to concatenate, 4 to copy, 5 to compare string "))
 if(n==1):
     s7=input("Enter a string")
-    gk.length(s7)
+    ss.length(s7)
 elif n==2:
     s1=input("Enter a string")
-    gk.rev(s1)
+    ss.rev(s1)
 elif n==3:
     s2=input("Enter a string")
     s3=input("Enter another string")
-    gk.con(s2,s3)
+    ss.con(s2,s3)
 elif n==4:
     s4=input("Enter a string")
-    gk.cop(s4)
+    ss.cop(s4)
 elif n==5:
     s5=input("Enter a string")
     s6=input("Enter another string to compare")
-    gk.comp(s5,s6)
+    ss.comp(s5,s6)
